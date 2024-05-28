@@ -1,0 +1,29 @@
+PascalCase for Component Files:
+
+Use PascalCase for naming React component files. This means starting each word with an uppercase letter, including the first word.
+Example: MyComponent.js
+CamelCase for Utility Files:
+
+Use camelCase for naming utility files or files that are not React components.
+Example: apiUtils.js, helperFunctions.js
+Descriptive Names:
+
+Choose descriptive names that reflect the purpose or functionality of the file.
+Example: LoginForm.js, UserList.js, styles.scss
+Use Index.js for Entry Points:
+
+When you have a directory containing multiple files and you want to export them from a single entry point, you can use index.js.
+Example: components/index.js, utils/index.js
+Prefixes or Suffixes for Specialized Files:
+
+Sometimes, prefixes or suffixes can be useful to denote specialized files, such as test files or configuration files.
+Example: MyComponent.test.js, App.config.js
+Consistent Naming Conventions Across Files:
+
+Maintain consistency across your project. If you choose a naming convention, stick to it throughout your project to avoid confusion.
+Avoid Special Characters and Spaces:
+
+Avoid using special characters and spaces in file names to ensure compatibility across different platforms and tools.
+Follow Language or Framework Conventions:
+
+If you're working in a team or contributing to an existing project, consider following any established naming conventions or guidelines specific to that project or organization.
